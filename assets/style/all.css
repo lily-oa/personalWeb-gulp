@@ -186,7 +186,7 @@ body {
     .about .about_list .item {
       margin-bottom: 4px; }
   .about .about_hr {
-    width: 384px;
+    max-width: 384px;
     margin: 24px auto 28px;
     border-top: 1px solid #000;
     border-bottom-width: 0; }
