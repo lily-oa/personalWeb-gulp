@@ -68,6 +68,10 @@ body {
   font-size: 24px;
   font-family: 'Roboto', sans-serif; }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto; }
+
 .fw-s {
   font-weight: 300; }
 
@@ -232,9 +236,7 @@ body {
             justify-content: center; }
 
 .works {
-  width: 1300px;
-  padding: 56px 0 144px 0;
-  margin: 0 auto;
+  padding: 56px 0 96px 0;
   text-align: center; }
   .works .works_pic {
     display: -webkit-box;
@@ -242,11 +244,9 @@ body {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
-    .works .works_pic li:not(last-child) {
-      margin-right: 24px; }
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
 
 footer {
   padding: 64px 0 64px 0;
