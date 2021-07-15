@@ -105,19 +105,12 @@
 
 //第四塊 works
 .works {
-  width: 1300px;
-  padding: 56px 0 144px 0;
-  margin: 0 auto;
+  padding: 56px 0 96px 0;
   text-align: center;
   .works_pic {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    li{
-      &:not(last-child){
-        margin-right: 24px;
-      }
-    }
+    justify-content: space-between;
   }
 }
 
