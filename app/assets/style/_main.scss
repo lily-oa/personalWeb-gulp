@@ -12,10 +12,10 @@
 
 .banner {
   color: #fff;
-  .banner_here{
+  .banner_here {
     text-align: left;
   }
-  .banner_joanne{
+  .banner_joanne {
     font-size: 80px;
   }
 }
@@ -28,10 +28,11 @@
     }
   }
 }
+
 //動畫
-.banner_icon a{
+.banner_icon a {
   display: block;
-  img{
+  img {
     transition: 0.5s;
   }
   img:hover {
@@ -43,11 +44,10 @@
 .about {
   width: 412px;
   padding: 56px 0;
-  display: flex;
-  flex-direction: column;
   text-align: center;
   margin: 0 auto;
   img {
+    margin: 0 auto;
     margin-bottom: 20px;
   }
   .about_list {
@@ -91,17 +91,16 @@
   }
 }
 
-.brand {
-  .brand_pic {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    .brand_pic_items {
-      display: flex;
-      justify-content: center;
-    }
-  }
+.brand_pic_itemTop img{
+  margin: 0 auto;
 }
+
+.brand_pic_items {
+  display: flex;
+  justify-content: space-between;
+}
+
+
 
 //第四塊 works
 .works {
@@ -121,7 +120,7 @@ footer {
   margin: 0 auto;
   color: #fff;
   text-align: center;
-  a{
+  a {
     text-decoration: none;
     color: #fff;
     flex: block;
@@ -130,10 +129,3 @@ footer {
     }
   }
 }
-
-
-
-
-
-
-
