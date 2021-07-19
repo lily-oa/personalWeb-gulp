@@ -169,16 +169,10 @@ body {
 .about {
   width: 412px;
   padding: 56px 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   text-align: center;
   margin: 0 auto; }
   .about img {
+    margin: 0 auto;
     margin-bottom: 20px; }
   .about .about_list {
     margin-bottom: 28px; }
@@ -211,24 +205,16 @@ body {
   .brand .item2 {
     margin-bottom: 68px; }
 
-.brand .brand_pic {
+.brand_pic_itemTop img {
+  margin: 0 auto; }
+
+.brand_pic_items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-  .brand .brand_pic .brand_pic_items {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .works {
   padding: 56px 0 96px 0;
