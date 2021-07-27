@@ -51,20 +51,28 @@
     margin-bottom: 20px;
   }
   .about_list {
-    margin-bottom: 28px;
+    margin-bottom: 24px;
     .item {
       margin-bottom: 4px;
     }
   }
-  .about_hr{
-    max-width: 384px;
-    margin: 24px auto 28px;
-    border-top: 1px solid #000;
-    border-bottom-width: 0;
-  }
+  // .about_hr{
+  //   max-width: 384px;
+  //   margin: 24px auto 28px;
+  //   border-top: 1px solid #000;
+  //   border-bottom-width: 0;
+  // }
 }
 
+// 助教建議設計線的方式，讓它(.about_dot)自己產出
 //dot
+.about_dot{
+  margin: 0 auto;
+  width: 384px;
+  border-top: 1px solid #000;
+  border-bottom-width: 0;
+  padding-top: 28px;
+}
 .about .about_dot>.dot::before {
   content: '';
   background-color: #891818;
